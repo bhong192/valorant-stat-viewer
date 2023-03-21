@@ -3,13 +3,13 @@ export default function ProfileHeader(){
     const profileName = "JoeyWarCrimes"; 
     const playerRank = "https://i.imgflip.com/6eer1g.png"; 
     return(
-        <div class="home-header"> 
-            <img>{frequentAgent}</img>
-            <div class="profile-name">
+        <div> 
+            <img src={frequentAgent}/>
+            <div>
                 <h1>{profileName}</h1>
             </div>
-            <div class="rank-icon">
-               <img>{playerRank}</img>     
+            <div>
+               <img src={playerRank}/>    
             </div>
         </div>
     ); 
